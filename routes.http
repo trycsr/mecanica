@@ -1,0 +1,31 @@
+POST http://localhost:3333/motor
+Content-Type: application/json
+
+{
+    "potencia": "300 cavalos",
+    "cilindro": 6,
+    "tamanho": 450
+}
+
+###
+
+GET http://localhost:3333/motor
+
+###
+
+GET http://localhost:3333/motor?search=300
+
+###
+
+PUT http://localhost:3333/motor/
+Content-Type: application/json
+
+{
+    "potencia": "230 cavalos",
+    "cilindro": 4,
+    "tamanho": 310
+}
+
+###
+
+DELETE http://localhost:3333/motor/
