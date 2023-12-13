@@ -1,3 +1,4 @@
+//Toda a base de dados armazenados na memória do projeto por meio de toda a implementação deste código.
 import { fastify } from 'fastify'
 import {DatabaseMemory} from "./database-memory.js"
 
