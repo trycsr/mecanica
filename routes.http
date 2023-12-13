@@ -1,3 +1,4 @@
+//CRIAR OBJETO
 POST http://localhost:3333/motor
 Content-Type: application/json
 
@@ -8,15 +9,15 @@ Content-Type: application/json
 }
 
 ###
-
+//VISUALIZAR
 GET http://localhost:3333/motor
 
 ###
-
+//FILTRO
 GET http://localhost:3333/motor?search=300
 
 ###
-
+//ATUALIZAR
 PUT http://localhost:3333/motor/
 Content-Type: application/json
 
@@ -27,5 +28,5 @@ Content-Type: application/json
 }
 
 ###
-
+//DELETAR
 DELETE http://localhost:3333/motor/
