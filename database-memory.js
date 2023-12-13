@@ -1,3 +1,4 @@
+////Toda a base de dados armazenados na memória do projeto por meio de toda a implementação deste código.
 import { randomUUID } from "crypto"
 
 
